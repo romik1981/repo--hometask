@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5723feef-4b80-42b2-9aee-191da6d678d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task_2.py" afterDir="false" />
+    <list default="true" id="5723feef-4b80-42b2-9aee-191da6d678d8" name="Changes" comment="Update Task 1,2">
+      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Belyakov_Roman_DZ_1/Readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Belyakov_Roman_DZ_1/Task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Belyakov_Roman_DZ_1/Task_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_1.py" />
+      <option name="SCRIPT_NAME" value="D:\OneDrive\Рабочий стол\Обучение GeekBrains\Задания\Git. Базовый курс\Home Task\Belyakov_Roman_DZ_1\Task_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task_2.py" />
+      <option name="SCRIPT_NAME" value="D:\OneDrive\Рабочий стол\Обучение GeekBrains\Задания\Git. Базовый курс\Home Task\Belyakov_Roman_DZ_1\Task_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,6 +111,29 @@
       <option name="presentableId" value="Default" />
       <updated>1642578371815</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update Task 1,2">
+      <created>1642604241016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642604241016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Task 1,2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Task 1,2" />
   </component>
 </project>
