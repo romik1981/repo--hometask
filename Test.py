@@ -1,6 +1,3 @@
-# Задание 1
-
-
 def num_translate(value: str) -> str:
     """переводит числительное с английского на русский """
     e_r_dictionary = {
@@ -16,7 +13,7 @@ def num_translate(value: str) -> str:
         'nine': 'девять',
         'ten': 'десять'
     }
-    str_out = e_r_dictionary.get(value) #в этой переменной должен оказаться результат перевода
+    str_out = e_r_dictionary.get(value)
     return str_out
 
 
