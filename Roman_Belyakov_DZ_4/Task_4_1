@@ -1,0 +1,252 @@
+1.
+certifi==2021.10.8
+charset-normalizer==2.0.11
+idna==3.3
+Pillow==9.0.1
+requests==2.27.1
+urllib3==1.26.8
+
+2.
+Name: requests
+Version: 2.27.1
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: c:\users\roman\appdata\local\programs\python\python310\lib\site-packages
+Requires: urllib3, idna, charset-normalizer, certifi
+Required-by:
+
+3.
+pip 21.2.4 from C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\site-packages\pip (python 3.10)
+
+4.
+$ pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.11
+Django==2.0
+idna==3.3
+Pillow==9.0.1
+pytz==2021.3
+requests==2.27.1
+urllib3==1.26.8
+
+5. pillow 7.1.1 устуновить не удалось!!!
+Collecting pillow==7.1.1
+  Downloading Pillow-7.1.1.tar.gz (38.9 MB)
+Using legacy 'setup.py install' for pillow, since package 'wheel' is not installed.
+Installing collected packages: pillow
+  Attempting uninstall: pillow
+    Found existing installation: Pillow 9.0.1
+    Uninstalling Pillow-9.0.1:
+      Successfully uninstalled Pillow-9.0.1
+    Running setup.py install for pillow: started
+    Running setup.py install for pillow: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\Users\Roman\AppData\Local\Programs\Python\Python310\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Roman\\AppData\\Local\\Temp\\pip-install-lkmc7hbu\\pillow_f22562fd18fd492084900508b19ba1c0\\setup.py'"'"'; __file__='"'"'C:\\Users\\Roman\\AppData\\Local\\Temp\\pip-install-lkmc7hbu\\pillow_f22562fd18fd492084900508b19ba1c0\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Roman\AppData\Local\Temp\pip-record-cf7yupi2\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\Roman\AppData\Local\Programs\Python\Python310\Include\pillow'
+         cwd: C:\Users\Roman\AppData\Local\Temp\pip-install-lkmc7hbu\pillow_f22562fd18fd492084900508b19ba1c0\
+    Complete output (177 lines):
+    C:\Users\Roman\AppData\Local\Temp\pip-install-lkmc7hbu\pillow_f22562fd18fd492084900508b19ba1c0\setup.py:42: RuntimeWarning: Pillow 7.1.1 does not support Python 3.10 and does not provide prebuilt Windows binaries. We do not recommend building from source on Windows.
+      warnings.warn(
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.10
+    creating build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BdfFontFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BlpImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BmpImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\BufrStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ContainerIO.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\CurImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\DcxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\DdsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\EpsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ExifTags.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\features.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FitsStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FliImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FontFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FpxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\FtexImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GbrImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GdImageFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GifImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GimpGradientFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GimpPaletteFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\GribStubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\Hdf5StubImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\IcnsImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\IcoImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\Image.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageChops.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageCms.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageColor.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageDraw.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageDraw2.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageEnhance.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageFilter.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageFont.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageGrab.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageMath.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageMode.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageMorph.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageOps.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImagePalette.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImagePath.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageQt.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageSequence.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageShow.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageStat.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageTk.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageTransform.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImageWin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\ImtImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\IptcImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\Jpeg2KImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\JpegImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\JpegPresets.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\McIdasImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MicImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MpegImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MpoImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\MspImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PaletteFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PalmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PcdImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PcfFontFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PcxImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PdfImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PdfParser.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PixarImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PngImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PpmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PsdImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PSDraw.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\PyAccess.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\SgiImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\SpiderImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\SunImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TarIO.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TgaImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TiffImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\TiffTags.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\WalImageFile.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\WebPImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\WmfImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\XbmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\XpmImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\XVThumbImagePlugin.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_binary.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_tkinter_finder.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_util.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\_version.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\__init__.py -> build\lib.win-amd64-3.10\PIL
+    copying src\PIL\__main__.py -> build\lib.win-amd64-3.10\PIL
+    running egg_info
+    writing src\Pillow.egg-info\PKG-INFO
+    writing dependency_links to src\Pillow.egg-info\dependency_links.txt
+    writing top-level names to src\Pillow.egg-info\top_level.txt
+    reading manifest file 'src\Pillow.egg-info\SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.c'
+    warning: no files found matching '*.h'
+    warning: no files found matching '*.sh'
+    warning: no previously-included files found matching '.appveyor.yml'
+    warning: no previously-included files found matching '.coveragerc'
+    warning: no previously-included files found matching '.editorconfig'
+    warning: no previously-included files found matching '.readthedocs.yml'
+    warning: no previously-included files found matching 'azure-pipelines.yml'
+    warning: no previously-included files found matching 'codecov.yml'
+    warning: no previously-included files matching '.git*' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    no previously-included directories found matching '.azure-pipelines'
+    no previously-included directories found matching '.ci'
+    adding license file 'LICENSE'
+    writing manifest file 'src\Pillow.egg-info\SOURCES.txt'
+    running build_ext
+
+
+    The headers or library files could not be found for zlib,
+    a required dependency when compiling Pillow from source.
+
+    Please see the install instructions at:
+       https://pillow.readthedocs.io/en/latest/installation.html
+
+    Traceback (most recent call last):
+      File "C:\Users\Roman\AppData\Local\Temp\pip-install-lkmc7hbu\pillow_f22562fd18fd492084900508b19ba1c0\setup.py", line 860, in <module>
+        setup(
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\__init__.py", line 153, in setup
+        return distutils.core.setup(**attrs)
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\core.py", line 148, in setup
+        dist.run_commands()
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 966, in run_commands
+        self.run_command(cmd)
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py", line 61, in run
+        return orig.install.run(self)
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\command\install.py", line 568, in run
+        self.run_command('build')
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\command\build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\dist.py", line 985, in run_command
+        cmd_obj.run()
+      File "C:\Users\Roman\AppData\Local\Programs\Python\Python310\lib\distutils\command\build_ext.py", line 340, in run
+        self.build_extensions()
+      File "C:\Users\Roman\AppData\Local\Temp\pip-install-lkmc7hbu\pillow_f22562fd18fd492084900508b19ba1c0\setup.py", line 694, in build_extensions
+        raise RequiredDependencyException(f)
+    __main__.RequiredDependencyException: zlib
+
+    During handling of the above exception, another exception occurred:
+
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\Roman\AppData\Local\Temp\pip-install-lkmc7hbu\pillow_f22562fd18fd492084900508b19ba1c0\setup.py", line 914, in <module>
+        raise RequiredDependencyException(msg)
+    __main__.RequiredDependencyException:
+
+    The headers or library files could not be found for zlib,
+    a required dependency when compiling Pillow from source.
+
+    Please see the install instructions at:
+       https://pillow.readthedocs.io/en/latest/installation.html
+
+
+    ----------------------------------------
+  Rolling back uninstall of Pillow
+  Moving to c:\users\roman\appdata\local\programs\python\python310\lib\site-packages\pil\
+   from C:\Users\Roman\AppData\Local\Programs\Python\Python310\Lib\site-packages\~il
+  Moving to c:\users\roman\appdata\local\programs\python\python310\lib\site-packages\pillow-9.0.1.dist-info\
+   from C:\Users\Roman\AppData\Local\Programs\Python\Python310\Lib\site-packages\~illow-9.0.1.dist-info
+ERROR: Command errored out with exit status 1: 'C:\Users\Roman\AppData\Local\Programs\Python\Python310\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Roman\\AppData\\Local\\Temp\\pip-install-lkmc7hbu\\pillow_f22562fd18fd492084900508b19ba1c0\\setup.py'"'"'; __file__='"'"'C:\\Users\\Roman\\AppData\\Local\\Temp\\pip-install-lkmc7hbu\\pillow_f22562fd18fd492084900508b19ba1c0\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Roman\AppData\Local\Temp\pip-record-cf7yupi2\install-record.txt' --single-version-externally-managed --compile --install-headers 'C:\Users\Roman\AppData\Local\Programs\Python\Python310\Include\pillow' Check the logs for full command output.
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\Roman\AppData\Local\Programs\Python\Python310\python.exe -m pip install --upgrade pip' command.
+
+6. Замена request 2.27.1 на 2.25.0
+Name: requests
+Version: 2.25.0
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: c:\users\roman\appdata\local\programs\python\python310\lib\site-packages
+Requires: urllib3, idna, chardet, certifi
+Required-by:
+
+7. Деактивация не работает
+Roman@DESKTOP-3DUM0VD MINGW64 ~
+$ deactivate
+bash: deactivate: command not found
